@@ -1,1 +1,24 @@
 node_modules/\ndist/\n.venv/\n__pycache__/\n*.pyc\n.env\n*.db\nuploads/\n
+# Environment secrets
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend
+node_modules/
+dist/
+
+# Uploads
+uploads/
